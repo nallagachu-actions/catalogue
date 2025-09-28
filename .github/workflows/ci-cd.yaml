@@ -1,10 +1,7 @@
 name: cicd
 on:
   push:
-    branches:
-      - main
   workflow_dispatch:
-
 jobs:
   common:
     uses: nallagachu-actions/reusable-workflows/.github/workflows/common.yaml@main
