@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   common:
-    uses: nallagachu-actions/reusable-workflows.github/workflow/commom.yaml@main
+    uses: nallagachu-actions/reusable-workflows.github/workflow/common.yaml@main
     with:
       project: roboshop
       component: catalogue
